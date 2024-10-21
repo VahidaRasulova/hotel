@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+ul{
+    list-style: none;
+    
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1,h2{
+    font-weight: 300;
+    line-height: 1.2;
+}
+p{
+    margin: 1rem 0;
+}
+img{
+    width: 100%;
+}
+.text-center {
+    text-align: center;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark);
+    opacity: 0.8;
+    color: var(--white);
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    padding: 0 3rem;
+
+}
+.navbar a{
+    
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 0 5px;
+}
+.navbar a:hover{
+    border-bottom: 2px solid var(--warning);
+}
+.navbar ul{
+    display: flex;
+}
+.navbar .brand{
+    font-weight: 400;
+}
+.navbar h1{
+    font-size: 3rem;
+}
+.navbar span{
+    color: var(--warning);
+}
+/* header */
+.main-header{
+    background-repeat: no-repeat;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/img/bg-1.jpeg");
+    height: 100vh;
+    position: relative;
+
+}
+.main-header .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    
+}
+.main-header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.main-header *{
+    z-index: 3;
+}
+
+.main-header .content h1{
+    font-size: 5.4rem;
+}
+.main-header .content p{
+    font-size: 2.3rem;
+    max-width: 60rem;
+    margin: 2rem 0 3rem;
+}
+#about {
+    color: #fff;
+}
+#about h2{
+    font-size: 4rem;
+    font-weight: 400;
+}
+#about p{
+    margin: 2rem 0;
+}
+/* gallery */
+.gallery img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
